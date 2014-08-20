@@ -1,0 +1,22 @@
+{
+  "name": "gulp-nodefy",
+  "description": "Convert AMD modules to CommonJS modules",
+  "version": "0.0.0",
+  "homepage": "https://github.com/popham/gulp-nodefy",
+  "repository": "git://github.com/popham/gulp-nodefy.git",
+  "author": "Tim Popham",
+  "main": "./index.js",
+  "keywords": [
+    "gulpplugin",
+    "nodefy"
+  ],
+  "dependencies": {
+    "gulp-util": "^2.2.1",
+    "nodefy": "^0.2.2",
+    "through2": "^0.5.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "licenses": "MIT"
+}
